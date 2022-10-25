@@ -2,6 +2,7 @@
 This is the official repository for the DEMETR dataset design to perform diagnostics on Machine Translation evaluation metrics. DEMETR consists of 35 perturbations spanning sematic, syntactic, and morphological error categories.
 
 Key characteristics of DEMETR are:
+
 :hibiscus: the 
 :hibiscus: carefully designed to form _minimal pairs_ (i.e., differ only in one 
 
