@@ -1,7 +1,8 @@
 #  :ear_of_rice: DEMETR: Diagnosing Evaluation Metrics for Translation
-This is the official repository for the DEMETR dataset design to perform diagnostics on Machine Translation evaluation metrics [paper] (TBD). DEMETR consists of 35 perturbations spanning sematic, syntactic, and morphological error categories.
+This is the official repository for the DEMETR dataset design to perform diagnostics on Machine Translation evaluation metrics (check our [paper](http://arxiv.org/abs/2210.13746) for details). DEMETR consists of 35 perturbations spanning sematic, syntactic, and morphological error categories.
 
-![Alt text](/assets/demetr-example.png "DEMETR Example")
+
+
 
 ## Citation
 
