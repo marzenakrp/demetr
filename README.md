@@ -3,7 +3,7 @@ This is the official repository for the DEMETR dataset design to perform diagnos
 
 Some key features of DEMETR include:  
 :hibiscus: manually verified `source text`, `human translation`, and `machine translation` (special attention was given to avoid translation artifacts such as translationese);  
-:hibiscus: carefully designed perturbations based on the `MQM` error annotation schema (https://themqm.org/error-types-2/typology/);  
+:hibiscus: carefully designed perturbations based on the `MQM` [error annotation schema](https://themqm.org/error-types-2/typology);  
 :hibiscus: 10 different source languages (:poland: Polish, :czech_republic: Czech, 🇷🇺 Russian, 🇩🇪 German, 🇫🇷 French, 🇮🇹 Italian, 🇪🇸 Spanish, 🇯🇵 Japanese, 🇨🇳 Chinese, :india: Hindi) to challenge reference-less MT evaluation metrics;  
 :hibiscus: manual implementation or manual check on more challenging perturbation to assure their plausability.  
 
