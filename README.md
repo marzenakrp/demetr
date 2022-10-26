@@ -1,11 +1,11 @@
 #  :ear_of_rice: DEMETR: Diagnosing Evaluation Metrics for Translation
 This is the official repository for the DEMETR dataset design to perform diagnostics on Machine Translation (MT) evaluation metrics (check out our [paper](http://arxiv.org/abs/2210.13746) for details). DEMETR consists of **35** perturbations spanning sematic, syntactic, and morphological error categories.
 
-Some key features of DEMETR include:
-- :hibiscus: manually verified `source text`, `human translation`, and `machine translation` (special attention was given to avoid translation artifacts such as translationese);
-- :hibiscus: carefully designed perturbations based on the `MQM` error annotation schema (https://themqm.org/error-types-2/typology/);
-- :hibiscus: 10 different source languages (:poland: Polish, :czech_republic: Czech, 🇷🇺 Russian, 🇩🇪 German, 🇫🇷 French, 🇮🇹 Italian, 🇪🇸 Spanish, 🇯🇵 Japanese, 🇨🇳 Chinese, :india: Hindi) to challenge reference-less MT evaluation metrics;
-- :hibiscus: manual implementation or manual check on more challenging perturbation to assure their plausability.
+Some key features of DEMETR include:  
+:hibiscus: manually verified `source text`, `human translation`, and `machine translation` (special attention was given to avoid translation artifacts such as translationese);  
+:hibiscus: carefully designed perturbations based on the `MQM` error annotation schema (https://themqm.org/error-types-2/typology/);  
+:hibiscus: 10 different source languages (:poland: Polish, :czech_republic: Czech, 🇷🇺 Russian, 🇩🇪 German, 🇫🇷 French, 🇮🇹 Italian, 🇪🇸 Spanish, 🇯🇵 Japanese, 🇨🇳 Chinese, :india: Hindi) to challenge reference-less MT evaluation metrics;  
+:hibiscus: manual implementation or manual check on more challenging perturbation to assure their plausability.  
 
 ## Details
 
