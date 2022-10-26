@@ -14,7 +14,7 @@ DEMETR dataset consists of **35** `json` files (one for each perturbation), each
 - `eng_sent` human translation of the source sentence
 - `mt_sent` edited machine translation of the source sentence
 - `pert_sent` perturbed machine translation
-- `lang_tag` language tag
+- `lang_tag` language of the source text
 - `data_source` dataset where the source and English translation come from
 - `pert_check` if `true` the sentence was correctly perturbed. Not all perturbations could be applied to all sentences. For instance, a sentence has to have a number in order to change that number.
 - `severity` either `minor`, `major`, `critical`, or `base` to account for the severity of the error
