@@ -10,15 +10,15 @@ Some key features of DEMETR include:
 ## Details
 
 DEMETR dataset consists of **35** `json` files (one for each perturbation), each of which contains 1K test items. Each test item includes the following:
-- `id` item id ranging from 1 to 1000
+- `id` item id ranging from 1 to 1000 (unique for each of the 1K source sentences in DEMETR)
 - `src_sent` sentence in the source language
-- `eng_sent` human translation of the source sentence
-- `mt_sent` edited machine translation of the source sentence
+- `eng_sent` human translation of the source sentence (manually edited for better quality)
+- `mt_sent` machine translation of the source sentence (manually edited for better quality)
 - `pert_sent` perturbed machine translation
 - `lang_tag` language of the source text
-- `data_source` dataset where the source and English translation come from
-- `pert_check` if `true` the sentence was correctly perturbed. Not all perturbations could be applied to all sentences. For instance, a sentence has to have a number in order to change that number.
-- `severity` either `minor`, `major`, `critical`, or `base` to account for the severity of the error
+- `data_source` dataset where the source and English translations came from (`FLORES` or `WMT`)
+- `pert_check` if `true` the sentence was correctly perturbed. Not all perturbations could be applied to all sentences. For instance, a sentence has to have a number in order for that number to be changed.
+- `severity` either `minor`, `major`, `critical`, or `base` to account for the severity of error
 - `pert_id` the `id` of the perturbation as listed in the paper (1-35)
 - `pert_desc` short description of the perturbation
 - `pert_name` unique perturbation name containing the severity type and the perturbation id
@@ -41,6 +41,8 @@ Here is an example of one entry:
   }
 ```
 
+## Coming Soon...
+Despite all work put into the creation of DEMETR, there are still some limitations to the dataset. One of such is that DEMETR is still sentence-level metric, which ignores the discourse level errors. Another is that DEMETR contains only translations into English, which limits its diagnostic capabilities of the reference-based metrics only to this language. We recognize these limitations and are working on a sister dataset. Stay tuned! 
 
 
 ## Citation
