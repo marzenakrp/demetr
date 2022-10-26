@@ -26,11 +26,11 @@ DEMETR dataset consists of **35** `json` files (one for each perturbation), each
 Here is an example of one entry:
 ```
 {
-    "id": 7,
-    "src_sent": "他的研究表明，施用激素可加速宝宝胎肺的成熟。",
-    "eng_sent": "His research showed that if a hormone was administered it would speed up the baby's foetal lung maturation.",
-    "mt_sent": "His research shows that the administration of hormones can accelerate the maturation of the baby's fetal lungs.",
-    "pert_sent": "His research shows that the administration of hormones can slow down the maturation of the baby's fetal lungs.",
+    "id": 18,
+    "src_sent": "该声明称，土耳其还将接管对被捕的伊斯兰国武装分子的看守任务；欧洲国家拒绝将他们遣送回国。",
+    "eng_sent": "Turkey would also take over the task of guarding captured ISIS fighters which, the statement said, European nations have refused to repatriate.",
+    "mt_sent": "Turkey would also take over custody of captured Islamic State fighters which, the statement said, European countries have refused to send them home.",
+    "pert_sent": "Turkey would also take over custody of captured Islamic State fighters which, the statement said, European countries have agreed to send them home.",
     "lang_tag": "chinese_simple",
     "data_source": "FLORES",
     "pert_check": true,
@@ -38,7 +38,7 @@ Here is an example of one entry:
     "pert_id": 7,
     "pert_desc": "changing a word to its antonym (noun, adv, adj, verb)",
     "pert_name": "critical_id7_antonym"
-  }
+  },
 ```
 
 ## Coming Soon...
