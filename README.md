@@ -41,7 +41,7 @@ Here is an example of one entry:
   },
 ```
 
-## Coming Soon...
+## Coming Soon... <img src="https://github.com/marzenakrp/demetr/blob/main/assets/dementor-new.png" width="20">
 Despite all work put into the creation of DEMETR, there are still some limitations to the dataset. One of such is that DEMETR is still sentence-level metric, which ignores the discourse level errors. Another is that DEMETR contains only translations into English, which limits its diagnostic capabilities of the reference-based metrics only to this language. We recognize these limitations and are working on a sister dataset. Stay tuned! 
 <img src="https://github.com/marzenakrp/demetr/blob/main/assets/dementor-new.png" width="20">
 
