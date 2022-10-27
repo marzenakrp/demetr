@@ -1,6 +1,6 @@
 #  :ear_of_rice: DEMETR: Diagnosing Evaluation Metrics for Translation
 
-[![arxiv](https://img.shields.io/badge/arXiv-2205.09726-b31b1b.svg)](http://arxiv.org/abs/2210.13746)
+[![arxiv](https://img.shields.io/badge/arXiv-2210.13746-b31b1b.svg)](http://arxiv.org/abs/2210.13746)
 
 This is the official repository for the DEMETR dataset design to perform diagnostics on Machine Translation (MT) evaluation metrics (check out our [paper](http://arxiv.org/abs/2210.13746) for details). DEMETR consists of **35** perturbations spanning sematic, syntactic, and morphological error categories.
 
