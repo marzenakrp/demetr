@@ -11,3 +11,5 @@ The machine translation included in `DEMETR` was obtained using primarily Google
 
 
 # PERTURBATIONS DETAILS
+
+comming soon -- please feel free to email us if you have any questions before this one is ready
